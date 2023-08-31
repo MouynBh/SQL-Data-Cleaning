@@ -65,8 +65,8 @@ SET age = timestampdiff(YEAR, birthdate, CURDATE());
 SELECT age FROM human_resources;
 -----------------------------------------------------------------------------
 SELECT 
-	min(age) AS youngest,
-    max(age) AS oldest
+min(age) AS youngest,
+max(age) AS oldest
 FROM human_resources;
 
 
